@@ -18,16 +18,15 @@
 //     console.log(`Hi ${name}`);
 // }
 
-// func('oscar')
-// func('jonas')
+
+//lesson -3
+// -state
+// -constructor , super
+// - onChange , onClick
+// input, checkbox , select
 
 
-// class Deportment {
-//     getNmae() {
-
-//     }
-// }
-
-// class Student extends Deportment{
-    
-// }
+//lesson - 4
+// - function call
+// - multi state change
+// - student list => filter

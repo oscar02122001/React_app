@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./cards";
-import "./picture.css";
+import "./picture.css"
 
 const datas = [
   { imgUrl: "https://picsum.photos/id/234/200", title: "Parij" },
