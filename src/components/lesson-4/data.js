@@ -25,3 +25,14 @@ let data = [{
 ];
 
 export default data
+
+
+
+let func = (prop) => {
+    console.log(prop);
+}
+
+let arrow = () => {
+    func('JavaScript')
+};
+// arrow()

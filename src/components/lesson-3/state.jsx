@@ -10,6 +10,7 @@ class State extends React.Component {
   state = {
     count: 1,
     name: "Oscar",
+    surname: "Jonas",
   };
   render() {
     // let count = 1;
@@ -20,17 +21,35 @@ class State extends React.Component {
     let minus = () => {
       this.setState({ count: --this.state.count });
     };
-    let getInput = (e) => {
-      console.log(e.target.value);
-      this.setState({ name: e.target.value });
+    let getInput = ({ target: { value, name } }) => {
+      // console.log(e.target.value);
+      console.log(name);
+      this.setState({ [name]: value });
     };
+    // let getInput2 = ({ target: { value, name } }) => {
+    //   // console.log(e.target.value);
+    //   console.log(name);
+    //   this.setState({ surname: value });
+    // };
     return (
       <div>
         <h1>Count: {this.state.count} </h1>
         <button onClick={plus}>plus</button>
         <button onClick={minus}>minus</button>
         <h1>Name: {this.state.name}</h1>
-        <input name="name" onChange={getInput} type="text" placeholder="name" />
+        <h1>Surname: {this.state.surname}</h1>
+        <input
+          name="name"
+          onChange={(e) => getInput(e, "React")}
+          type="text"
+          placeholder="name"
+        />
+        <input
+          name="surname"
+          onChange={(e) => getInput(e)}
+          type="text"
+          placeholder="Surname"
+        />
         <select onChange={getInput} name="select">
           <option value="id">ID</option>
           <option value="name">Name</option>
