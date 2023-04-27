@@ -30,3 +30,9 @@
 // - function call
 // - multi state change
 // - student list => filter
+
+
+// lesson -6 
+// -styled-component
+// -{css}
+// -props
