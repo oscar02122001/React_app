@@ -1,0 +1,43 @@
+.fruits-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card-wrap {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(211, 150, 8);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(240, 248, 255, 0.852);
+    box-shadow: 10px 10px 15px 2px;
+    cursor: pointer;
+}
+
+.card-container {
+    padding: 10px;
+
+}
+
+.card-wrap:hover {
+    transform: scale(1.07);
+    /* transform: rotate(-5deg); */
+    transition: 0.4s ease all;
+}
+
+.card-text {
+    /* margin-top: auto; */
+    font-family: cursive;
+    font-size: 24px;
+}
+
+.img {
+    display: inline-block;
+    width: 130px;
+    height: 90px;
+    border-radius: 5px;
+}
