@@ -12,13 +12,6 @@
 // - props children
 
 
-// const func = function (name) {
-//     console.log(`Hi ${name}`);
-//     console.log(`Hi ${name}`);
-//     console.log(`Hi ${name}`);
-// }
-
-
 //lesson -3
 // -state
 // -constructor , super
@@ -36,3 +29,9 @@
 // -styled-component
 // -{css}
 // -props
+// -function call
+
+// lesson -7 
+// -inheritance
+// -keyframes animation 
+// - theme 
